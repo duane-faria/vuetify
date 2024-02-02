@@ -325,7 +325,10 @@ export const VDatePicker = genericComponent<new <
       )
     })
 
-    return {}
+    return {
+      onClickNext,
+      onClickPrev,
+    }
   },
 })
 
